@@ -1,0 +1,73 @@
+{
+    "distance": 13.0,
+    "id": "Record",
+    "one_way": false,
+    "origin": {
+        "latitude": 43.5962758917,
+        "longitude": 4.8524143
+    },
+    "points": [
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 0,
+            "light": true,
+            "location": {
+                "latitude": 35.817543,
+                "longitude": 10.5913553,
+                "x": -5759.746318795136,
+                "y": -863820.60255377
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                0
+            ]
+        },
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 1,
+            "light": true,
+            "location": {
+                "latitude": 35.8174858,
+                "longitude": 10.5913582,
+                "x": -5759.381160600926,
+                "y": -863826.9431948322
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                0
+            ]
+        }
+    ],
+    "safe_point_id": -2,
+    "segments": [
+        {
+            "avoiding": false,
+            "detection": true,
+            "id": 0,
+            "max_speed": 4,
+            "orientation": 0,
+            "points": [
+                0,
+                1
+            ],
+            "speed": 4
+        }
+    ],
+    "start_threshold": -1.0
+}

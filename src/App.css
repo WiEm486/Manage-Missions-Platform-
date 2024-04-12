@@ -1,0 +1,341 @@
+html{
+  --main-color:#58DD76;
+}
+  @font-face {
+    font-family:"governorcond" ;
+    src: url("fonts/governorcond.ttf");
+  }
+  @font-face {
+    font-family:"YsabeauOffice-Light" ;
+    src: url("fonts/YsabeauOffice-Light.ttf");
+  }
+  @font-face {
+    font-family:"FontsFree-Net-Arboria-Bold" ;
+    src: url("fonts/FontsFree-Net-Arboria-Bold.ttf");
+  }
+  #header {
+    padding: 15px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    background: #fff;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s linear;
+  }
+ 
+  #header .navbar {
+    padding: 0;
+    justify-content: space-between;
+    background: none !important;
+  }
+  
+  #header .navbar-brand {
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    height: auto;
+    padding: 0;
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  
+  #header .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  #header .navbar-collapse .navbar-nav {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  #header .navbar-collapse a:last-child {
+    padding-right: 0;
+  }
+  
+  #header .navbar-collapse a {
+    color: #4d4d4d;
+    position: relative;
+  }
+  
+  #header .navbar-collapse a:hover,
+  #header .navbar-collapse a.active {
+    background: none;
+    color: var(--main-color);
+  }
+  
+  #header .navbar-collapse a:hover:before,
+  #header .navbar-collapse a.active:before {
+    right: 7px;
+    left: 8px;
+    opacity: 1;
+  }
+  
+  #header .navbar-collapse a:before {
+    content: '';
+    background: var(--main-color);
+    height: 1px;
+    position: absolute;
+    bottom: 7px;
+    left: -20px;
+    right: 100%;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    opacity: 0;
+  }
+  
+  .navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--main-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+}
+.custom-shape-divider-bottom-1688921185 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1688921185 svg {
+  position: relative;
+  display: block;
+  width: calc(290% + 1.3px);
+  height: 190px;
+}
+
+.custom-shape-divider-bottom-1688921185 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+.curved-div{
+
+  position: relative;
+ 
+  background:   linear-gradient( #11998e,#38ef7d);
+
+
+  min-height: 90vh;
+}
+.title-holder {
+  text-align: center;
+  margin: 1rem 0 0 ;
+
+}
+
+.title-holder h2 {
+   margin-top: 1rem;
+
+   font-family:"FontsFree-Net-Arboria-Bold" ;;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.title-holder .subtitle {
+  font-size: 2REM;
+  margin-bottom: 3rem;
+  font-family: 'Karla', sans-serif;
+  font-weight:600;
+}
+
+.title-holder .subtitle:before {
+  content: '-';
+  margin: 0 5px 20px 0;
+}
+
+.title-holder .subtitle:after {
+  content: '-';
+  margin: 0 0 0 5px;
+}
+#footer {
+  background:#00ddb3;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#footer .copyright {
+  margin: 0 0 15px;
+}
+.contact-block {
+  margin: 3rem;
+  position: relative;
+}
+.contact-block .contact-form {
+  margin: 0 0 60px;
+}
+textarea.form-control {
+  min-height: calc(1.5em + 0.75rem + calc(var(--bs-border-width) * 2));
+  margin-top: 2rem;
+}
+.btn_holder
+{
+  margin-top: 1rem;
+  background-color:  #00ddb3;
+ 
+  margin-bottom: 1rem;
+}
+.btn_holder:hover
+{
+ 
+  border-color:#00ddb3;
+ color: #238548;
+ background-color: white;
+
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #00ddb3;
+  --bs-btn-border-color: #00ddb3;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #00ddb3;
+  --bs-btn-hover-border-color: #00ddb3;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #00ddb3;
+  --bs-btn-active-border-color: #00ddb3;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #00ddb3;
+  --bs-btn-disabled-border-color: #00ddb3;
+}
+.google-map{
+  width: 80vw;
+  height: 50vw;
+
+}
+
+.section{
+ 
+
+margin-top: 10rem;
+
+
+display: flex;
+justify-content: center;
+
+}
+.specialFont1{
+ 
+  position: absolute;
+  top: 10rem;
+  left: 30rem;
+  font-size: 80px;
+  font-family:governorcond ;
+ 
+ 
+}
+.specialFont2{
+ color: white;
+  position: absolute;
+  top: 10rem;
+  left: 45rem;
+  font-size: 80px;
+  font-family:governorcond ;
+
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  /* align-items: center; */
+  height:25vh; /* Ajustez cette valeur en fonction de vos besoins */
+
+}
+
+.centered-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+.input{
+  padding: 0.5rem 5rem;
+}
+
+.sec-text:before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left:0;
+  height: 100%;
+  width: 100%;
+ 
+  border-left: 2px solid white;
+  animation: animate 4s steps(12) infinite;
+
+
+
+
+}
+.highlited{
+  background-image: linear-gradient(#00C9FF, #92FE9D);
+  border-radius: 10px;
+}
+@keyframes animate  {
+  40%,60%{
+    left: 100%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+
+.parag{
+ 
+    border-bottom: 15px solid;
+    border-image: linear-gradient(to left, #00C9FF, #92FE9D);
+    border-image-slice: 1;
+    border-left: 15px solid;
+
+}
+input#file-upload-button{
+  background-color: #00ddb3;
+}
+/* Hide the original file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Style the custom file input label */
+.custom-file-label {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #00ddb3;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+/* Style the label to look like a button */
+.custom-file-label:hover {
+  background-color: #00ddb3;
+}
+
+/* Style the label when the input is focused */
+input[type="file"]:focus + .custom-file-label {
+  outline: 2px solid #00ddb3;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1214px) {
+  .editStyle {
+  flex-direction: column;
+  }
+  .smallStyle{
+    font-family: "FontsFree-Net-Arboria-Bold";
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,217 @@
+{
+    "distance": 171.0,
+    "id": "Record",
+    "one_way": false,
+    "origin": {
+        "latitude": 43.5962758917,
+        "longitude": 4.8524143
+    },
+    "points": [
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 0,
+            "light": true,
+            "location": {
+                "latitude": 35.81758823672689,
+                "longitude": 10.591330776390997,
+                "x": -5762.043504244997,
+                "y": -863815.6206981302
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                0
+            ]
+        },
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 1,
+            "light": true,
+            "location": {
+                "latitude": 35.817444689174366,
+                "longitude": 10.591357589567195,
+                "x": -5759.362171021523,
+                "y": -863831.5043030744
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                0,
+                1
+            ]
+        },
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 2,
+            "light": true,
+            "location": {
+                "latitude": 35.81727939167114,
+                "longitude": 10.59137904010818,
+                "x": -5757.126098811976,
+                "y": -863849.8083937592
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                1,
+                2
+            ]
+        },
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 3,
+            "light": true,
+            "location": {
+                "latitude": 35.817105393927534,
+                "longitude": 10.591357589567195,
+                "x": -5758.7502852937905,
+                "y": -863869.1405717665
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                2,
+                3
+            ]
+        },
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 4,
+            "light": true,
+            "location": {
+                "latitude": 35.81698794523502,
+                "longitude": 10.591411215919596,
+                "x": -5753.693527207011,
+                "y": -863882.0897785434
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                3,
+                4
+            ]
+        },
+        {
+            "detection": true,
+            "dome_orientations": [
+                [
+                    0,
+                    0,
+                    3
+                ]
+            ],
+            "id": 5,
+            "light": true,
+            "location": {
+                "latitude": 35.816826996744574,
+                "longitude": 10.591362952202452,
+                "x": -5757.763730845996,
+                "y": -863900.0138546024
+            },
+            "pause": false,
+            "pause_duration": 0,
+            "ways": [
+                4
+            ]
+        }
+    ],
+    "safe_point_id": -2,
+    "segments": [
+        {
+            "avoiding": false,
+            "detection": true,
+            "id": 0,
+            "max_speed": 3,
+            "orientation": 0,
+            "points": [
+                0,
+                1
+            ],
+            "speed": 3
+        },
+        {
+            "avoiding": false,
+            "detection": true,
+            "id": 1,
+            "max_speed": 3,
+            "orientation": 0,
+            "points": [
+                1,
+                2
+            ],
+            "speed": 3
+        },
+        {
+            "avoiding": false,
+            "detection": true,
+            "id": 2,
+            "max_speed": 3,
+            "orientation": 0,
+            "points": [
+                2,
+                3
+            ],
+            "speed": 3
+        },
+        {
+            "avoiding": false,
+            "detection": true,
+            "id": 3,
+            "max_speed": 3,
+            "orientation": 0,
+            "points": [
+                3,
+                4
+            ],
+            "speed": 3
+        },
+        {
+            "avoiding": false,
+            "detection": true,
+            "id": 4,
+            "max_speed": 3,
+            "orientation": 0,
+            "points": [
+                4,
+                5
+            ],
+            "speed": 3
+        }
+    ],
+    "start_threshold": -1.0
+}
